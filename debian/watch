@@ -1,0 +1,5 @@
+version=4
+opts=searchmode=plain,filenamemangle=s%(?:.*?/)?v?@ANY_VERSION@%@PACKAGE@-$1.tar.gz%,\
+ uversionmangle=s%[-.](a|b|r?c|dev)%~$1%g \
+ https://api.github.com/repos/hynek/hatch-fancy-pypi-readme/tags \
+ tarball/(?:[^"]*?/)?v?@ANY_VERSION@
