@@ -1,0 +1,40 @@
+.TH HATCH-FANCY-PYPI-README 1 "" "" ""
+.SH NAME
+hatch-fancy-pypi-readme \- render Python project README
+.SH SYNOPSIS
+.SY hatch-fancy-pypi-readme
+.RI [ options ]
+.RI [ PATH ]
+.YS
+.SH DESCRIPTION
+.B hatch-fancy-pypi-readme
+is a CLI tool to manually render the project README as defined in
+.I pyproject.toml
+and
+.IR hatch.toml .
+Normally, the render process is invoked as part of the hatchling
+build.
+.PP
+The following options are recognized:
+.TP
+.I PATH
+the path to the
+.I pyproject.toml
+of the project. If omitted, the current directory is used.
+.TP
+.BR \-o " " \fIOUTPUT\fR
+write result to
+.IR OUTPUT .
+If omitted, the results are written to
+.IR stdout .
+.TP
+.BR \-\-hatch\-toml " " \fIFILE\fR
+Read an additional
+.I hatch.toml
+for rendering options.
+.SH MANUAL PAGE
+This manual page was written for the Debian distribution by
+.MT roehling@debian.org
+Timo R\[u00F6]hling
+.ME ,
+and may be used without restriction.

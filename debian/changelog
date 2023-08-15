@@ -1,5 +1,11 @@
-template-repository (1.0-1) unstable; urgency=medium
+python-hatch-fancy-pypi-readme (23.1.0-2) unstable; urgency=medium
 
-  * Initial release
+  * Add manual page for CLI tool
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Timo Röhling <roehling@debian.org>  Mon, 26 Jun 2023 20:47:53 +0200
+
+python-hatch-fancy-pypi-readme (23.1.0-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #1038973)
+
+ -- Timo Röhling <roehling@debian.org>  Sat, 24 Jun 2023 07:11:12 +0200
